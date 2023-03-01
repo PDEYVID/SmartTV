@@ -1,18 +1,23 @@
-## Getting Started
+// Exemplo de Programa Java usando a classe SmartTV
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um exemplo de programa Java que usa a classe `SmartTV` para controlar uma TV inteligente.
 
-## Folder Structure
+O método `main` é o ponto de entrada do programa e cria um objeto `SmartTV` chamado `SmartTV`. Em seguida, ele usa alguns dos métodos da classe `SmartTV` para alterar o canal, o volume e o status de energia da TV.
 
-The workspace contains two folders by default, where:
+As chamadas de método incluem:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `SmartTV.diminuirVolume()`: diminui o volume da TV em 3 unidades e imprime uma mensagem no console;
+- `SmartTV.aumentarVolume()`: aumenta o volume da TV em 1 unidade e imprime uma mensagem no console;
+- `SmartTV.mudarCanal(13)`: muda o canal da TV para o valor 13;
+- `SmartTV.ligada()`: liga a TV;
+- `SmartTV.desligar()`: desliga a TV.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O programa também imprime vários valores no console usando `System.out.println()`, incluindo:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- O canal atual da TV;
+- O volume atual da TV;
+- O status de energia atual da TV.
 
-## Dependency Management
+Esses valores são acessados usando os atributos da classe `SmartTV`, como `SmartTV.canal` e `SmartTV.volume`.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O resultado final do programa depende da implementação dos métodos na classe `SmartTV` e das chamadas de método no método `main`.
